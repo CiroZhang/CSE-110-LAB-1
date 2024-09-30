@@ -31,6 +31,22 @@ img{
   display:inline-block;
 }
 
+#section4{
+  background-image: url("https://www.ucsd.edu/_resources/img/bg-orbs-1.jpg");
+  display:inline-block;
+}
+
+#section4 h2{
+  color: white;
+}
+
+#section4 label{
+  color: white;
+  padding-top: 20px;
+}
+
+
+
 .wrapper {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
