@@ -1,5 +1,7 @@
 <!DOCTYPE html>
 <link rel="stylesheet" href="styles.css">
+<script src="script.js"></script>
+
 <html>
 <head>
     <meta name="viewport" content="width=device-width,initial-scale=1" />
@@ -13,6 +15,7 @@
     <li><a href="#section1">Section 1</a></li>
     <li><a href="#section2">Section 2</a></li>
     <li><a href="#section3">Section 3</a></li>
+    <li><a href="#section4">Subscribe</a></li>
 </div>
 
 <div id="section1">
@@ -53,16 +56,15 @@
     </div>
 
 </div>
-<div>
-    <p></p>
-</div>
+
+
 <div id="section4">
-<form action="https://www.w3schools.com/action_page.php">
+<form id= "subscribe-form" action="https://www.w3schools.com/action_page.php">
     <h2> Subscribe to our Newsletter!</h2>
     
-    <li><label for="fname">Enter your email:</label><br></li>
-    <li><input type="text" id="fname" name="fname" value="John"><br></li>
-    <li><input type="submit" value="Submit"></li>
+    <li><label for="email">Enter your email:</label><br></li>
+    <li><input type="email" id="email" name="email"><br></li>
+    <li><input type="submit" onclick="doStuff()" value="Submit"></li>
 </form>
 </div>
 

@@ -10,11 +10,13 @@ img{
 #section1{
   background-color: rgb(245, 240, 230);
   display:inline-block;
+  padding: 20px;
 }
 
 #section2{
   background-image: url("https://www.ucsd.edu/_resources/img/bg-orbs-1.jpg");
   display:inline-block;
+  padding: 20px;
 }
 
 
@@ -29,11 +31,14 @@ img{
 #section3{
   background-color: rgb(245, 240, 230);
   display:inline-block;
+  padding: 20px;
 }
 
 #section4{
   background-image: url("https://www.ucsd.edu/_resources/img/bg-orbs-1.jpg");
   display:inline-block;
+  padding: 30px;
+  min-width: 96%;
 }
 
 #section4 h2{
@@ -42,7 +47,6 @@ img{
 
 #section4 label{
   color: white;
-  padding-top: 20px;
 }
 
 
